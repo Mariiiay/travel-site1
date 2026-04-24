@@ -5,205 +5,25 @@
   <title>Travel</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
 <header class="header">
-  <h1>Страны и города</h1>
+  <h1 id="title">Страны и города</h1>
+
+  <!-- 🔥 переключатель языка -->
+
+  <select id="langSelect">
+    <option value="ru">RU</option>
+    <option value="en">EN</option>
+  </select>
 </header>
 
-<main class="container">
+<!-- 🔥 сюда JS будет вставлять карточки -->
 
-  <!-- 🇷🇺 РОССИЯ -->
-  <div class="country">
-    <div class="country__card" onclick="toggleCountry(this)">
-      <h2>Россия</h2>
-    </div>
-
-    <div class="cities">
-
-      <div class="city" onclick="this.classList.toggle('flipped')">
-        <div class="inner">
-          <div class="front">
-            <img src="images/moscow.jpg">
-            <h3>Москва</h3>
-          </div>
-          <div class="back">
-            <p>Москва — столица России, сочетание истории и современности.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="city" onclick="this.classList.toggle('flipped')">
-        <div class="inner">
-          <div class="front">
-            <img src="images/spb.jpg">
-            <h3>Санкт-Петербург</h3>
-          </div>
-          <div class="back">
-            <p>Культурная столица с каналами и архитектурой.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="city" onclick="this.classList.toggle('flipped')">
-        <div class="inner">
-          <div class="front">
-            <img src="images/pyatigorsk.jpg">
-            <h3>Пятигорск</h3>
-          </div>
-          <div class="back">
-            <p>Курортный город Кавказа с природой и источниками.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- 🇨🇳 КИТАЙ -->
-  <div class="country">
-    <div class="country__card" onclick="toggleCountry(this)">
-      <h2>Китай</h2>
-    </div>
-
-    <div class="cities">
-
-      <div class="city" onclick="this.classList.toggle('flipped')">
-        <div class="inner">
-          <div class="front">
-            <img src="images/shanghai.jpg">
-            <h3>Шанхай</h3>
-          </div>
-          <div class="back">
-            <p>Финансовый центр Китая с небоскрёбами.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="city" onclick="this.classList.toggle('flipped')">
-        <div class="inner">
-          <div class="front">
-            <img src="images/hongkong.jpg">
-            <h3>Гонконг</h3>
-          </div>
-          <div class="back">
-            <p>Город контрастов и яркой ночной жизни.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="city" onclick="this.classList.toggle('flipped')">
-        <div class="inner">
-          <div class="front">
-            <img src="images/beijing.jpg">
-            <h3>Пекин</h3>
-          </div>
-          <div class="back">
-            <p>Столица Китая с историческими памятниками.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- 🇺🇸 США -->
-  <div class="country">
-    <div class="country__card" onclick="toggleCountry(this)">
-      <h2>США</h2>
-    </div>
-
-    <div class="cities">
-
-      <div class="city" onclick="this.classList.toggle('flipped')">
-        <div class="inner">
-          <div class="front">
-            <img src="images/newyork.jpg">
-            <h3>Нью-Йорк</h3>
-          </div>
-          <div class="back">
-            <p>Город, который никогда не спит.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="city" onclick="this.classList.toggle('flipped')">
-        <div class="inner">
-          <div class="front">
-            <img src="images/vegas.jpg">
-            <h3>Лас-Вегас</h3>
-          </div>
-          <div class="back">
-            <p>Столица развлечений и казино.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="city" onclick="this.classList.toggle('flipped')">
-        <div class="inner">
-          <div class="front">
-            <img src="images/texas.jpg">
-            <h3>Техас</h3>
-          </div>
-          <div class="back">
-            <p>Штат свободы и больших пространств.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- 🇹🇭 ТАИЛАНД -->
-  <div class="country">
-    <div class="country__card" onclick="toggleCountry(this)">
-      <h2>Таиланд</h2>
-</div>
-
-    <div class="cities">
-
-      <div class="city" onclick="this.classList.toggle('flipped')">
-        <div class="inner">
-          <div class="front">
-            <img src="images/phuket.jpg">
-            <h3>Пхукет</h3>
-          </div>
-          <div class="back">
-            <p>Тропический остров с пляжами.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="city" onclick="this.classList.toggle('flipped')">
-        <div class="inner">
-          <div class="front">
-            <img src="images/bangkok.jpg">
-            <h3>Бангкок</h3>
-          </div>
-          <div class="back">
-            <p>Шумная столица Таиланда.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="city" onclick="this.classList.toggle('flipped')">
-        <div class="inner">
-          <div class="front">
-            <img src="images/chiangmai.jpg">
-            <h3>Чиангмай</h3>
-          </div>
-          <div class="back">
-            <p>Спокойный северный город.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-</main>
+<main class="container" id="app"></main>
 
 <script src="script.js"></script>
+
 </body>
+  
 </html>
