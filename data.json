@@ -1,62 +1,113 @@
 {
   "languages": {
-    "ru": {
-      "title": "Страны и города"
-    },
-    "en": {
-      "title": "Countries and Cities"
-    }
+    "ru": { "title": "Страны и города" },
+    "en": { "title": "Countries and Cities" },
+    "zh": { "title": "国家和城市" },
+    "fr": { "title": "Pays et villes" },
+    "es": { "title": "Países y ciudades" }
   },
+
   "countries": [
     {
       "name": {
         "ru": "Россия",
-        "en": "Russia"
+        "en": "Russia",
+        "zh": "俄罗斯",
+        "fr": "Russie",
+        "es": "Rusia"
       },
       "cities": [
         {
           "name": {
             "ru": "Москва",
-            "en": "Moscow"
+            "en": "Moscow",
+            "zh": "莫斯科",
+            "fr": "Moscou",
+            "es": "Moscú"
           },
           "desc": {
             "ru": "Столица России",
-            "en": "Capital of Russia"
+            "en": "Capital of Russia",
+            "zh": "俄罗斯首都",
+            "fr": "Capitale de la Russie",
+            "es": "Capital de Rusia"
           },
-          "image": "images/moscow.jpg",
-          "color": "#3b82f6"
+          "image": "images/moscow.jpg"
         },
         {
           "name": {
             "ru": "Санкт-Петербург",
-            "en": "Saint Petersburg"
+            "en": "Saint Petersburg",
+            "zh": "圣彼得堡",
+            "fr": "Saint-Pétersbourg",
+            "es": "San Petersburgo"
           },
           "desc": {
             "ru": "Культурная столица",
-            "en": "Cultural capital"
+            "en": "Cultural capital",
+            "zh": "文化之都",
+            "fr": "Capitale culturelle",
+            "es": "Capital cultural"
           },
-          "image": "images/spb.jpg",
-          "color": "#8b5cf6"
+          "image": "images/spb.jpg"
         }
       ]
     },
+
     {
       "name": {
         "ru": "США",
-        "en": "USA"
+        "en": "USA",
+        "zh": "美国",
+        "fr": "États-Unis",
+        "es": "Estados Unidos"
       },
       "cities": [
         {
           "name": {
             "ru": "Нью-Йорк",
-            "en": "New York"
+            "en": "New York",
+            "zh": "纽约",
+            "fr": "New York",
+            "es": "Nueva York"
           },
           "desc": {
             "ru": "Город, который не спит",
-            "en": "The city that never sleeps"
+            "en": "The city that never sleeps",
+            "zh": "不夜城",
+            "fr": "La ville qui ne dort jamais",
+            "es": "La ciudad que nunca duerme"
           },
-          "image": "images/newyork.jpg",
-          "color": "#ef4444"
+          "image": "images/newyork.jpg"
+        }
+      ]
+    },
+
+    {
+      "name": {
+        "ru": "Китай",
+        "en": "China",
+        "zh": "中国",
+        "fr": "Chine",
+        "es": "China"
+      },
+      "cities": [
+        {
+          "name": {
+            "ru": "Пекин",
+            "en": "Beijing",
+            "zh": "北京",
+            "fr": "Pékin",
+            "es": "Pekín"
+          },
+          "desc": {
+            "ru": "Столица Китая",
+            "en": "Capital of China",
+            "zh": "中国首都",
+            "fr": "Capitale de la Chine",
+            "es": "Capital de China"
+          },
+          "image": "images/beijing.jpg"
         }
       ]
     }
