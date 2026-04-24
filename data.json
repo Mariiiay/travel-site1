@@ -1,0 +1,64 @@
+{
+  "languages": {
+    "ru": {
+      "title": "Страны и города"
+    },
+    "en": {
+      "title": "Countries and Cities"
+    }
+  },
+  "countries": [
+    {
+      "name": {
+        "ru": "Россия",
+        "en": "Russia"
+      },
+      "cities": [
+        {
+          "name": {
+            "ru": "Москва",
+            "en": "Moscow"
+          },
+          "desc": {
+            "ru": "Столица России",
+            "en": "Capital of Russia"
+          },
+          "image": "images/moscow.jpg",
+          "color": "#3b82f6"
+        },
+        {
+          "name": {
+            "ru": "Санкт-Петербург",
+            "en": "Saint Petersburg"
+          },
+          "desc": {
+            "ru": "Культурная столица",
+            "en": "Cultural capital"
+          },
+          "image": "images/spb.jpg",
+          "color": "#8b5cf6"
+        }
+      ]
+    },
+    {
+      "name": {
+        "ru": "США",
+        "en": "USA"
+      },
+      "cities": [
+        {
+          "name": {
+            "ru": "Нью-Йорк",
+            "en": "New York"
+          },
+          "desc": {
+            "ru": "Город, который не спит",
+            "en": "The city that never sleeps"
+          },
+          "image": "images/newyork.jpg",
+          "color": "#ef4444"
+        }
+      ]
+    }
+  ]
+}
